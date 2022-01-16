@@ -11,22 +11,18 @@ app.listen(3000, () => {
 
 
 app.get('/home', (req, res) => {
-    console.log('te llevo al home');
     res.sendFile(__dirname + '/views/home.html');
   });
 
   app.get('/about', (req, res) => {
-    console.log('te llevo al about');
     res.sendFile(__dirname +'/views/about.html');
   });
 
   app.get('/works', (req, res) => {
-    console.log('te llevo al works');
     res.sendFile(__dirname + '/views/works.html');
   });
 
   app.get('/gallery', (req, res) => {
-    console.log('te llevo a la gallery');
     res.sendFile(__dirname + '/views/gallery.html');
   });
 
