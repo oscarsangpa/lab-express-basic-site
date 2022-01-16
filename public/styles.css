@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    color:slateblue
+}
+
+.error {
+    color: red;
+}
+li {
+    list-style: none;
+}
